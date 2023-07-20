@@ -1,0 +1,26 @@
+.h1{
+    background-color: rgb(207, 207, 12);
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    border: 1px solid dodgerblue;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    border: 1px solid dodgerblue;
+    /* margin: 10px 40px 40px 180px ; */
+    margin-left: 200px;
+}
+.box3{
+    width: 100px;
+    height: 100px;
+    border: 1px solid dodgerblue;
+    margin-left: 400px;
+}
+
+
+.box3{
+    background-color: beige;
+}

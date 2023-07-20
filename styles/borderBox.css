@@ -1,0 +1,18 @@
+.box{
+    width: 200px;
+    height: 201px;
+    border: 1px solid green;
+
+
+    /* Border box layers
+    
+    margin: adds spacing outside the container
+
+    padding: adds spacing inside the container
+
+    border: adds a boundary outside the box
+
+    blue layer: width x height
+    */
+}
+

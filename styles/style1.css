@@ -1,0 +1,89 @@
+
+/* CSS Syntax
+rule: value;
+*/
+/* (*) is called the universal selector */
+
+*{
+
+    /* Whatever styling you write here is applied on all the tags in the document */
+    /* color: red; */
+
+    box-sizing: border-box;
+
+    margin: 0;
+}
+
+body{
+   background-color: beige;
+
+}
+.purple {
+    color: purple;
+}
+
+.bigOne {
+    font-size: 24px;
+}
+
+.borderBox {
+    background-color: aquamarine;
+    width: 150px;
+    height: 150px;
+
+
+    /* border box concept:
+        The boundary outside the box is called border box
+
+ */
+
+    /* 1) Padding: It is used to create spacing inside the box */
+
+    /* padding-top: 10px;
+        padding-right: 20px;
+        padding-bottom: 30px;
+        padding-left: 80px ; */
+
+
+    /* Short cut to apply padding */
+
+    /* padding: 40px; */
+
+    padding: 10px 20px 30px 40px;
+
+
+    /* 2) Margin: It is used to add spacing outside the box*/
+
+
+    margin: 65px 35px 45px 140px ;
+
+
+    /* 3) Border: It is the outer boundary outside the container */
+
+    /* border-width: 7px;
+    border-style: solid;
+    border-color: black; */
+
+
+    border: 5px solid black;
+
+    /* property to curve the border of a container is border-radius
+
+    the maximum value for border radius is 50%
+     */
+
+     /* border-radius: 50%; */
+     padding: 50px;
+
+}
+
+.pBlock{
+    background-color: aqua;
+    display: inline;
+}
+
+.spanInline{
+    background-color: aquamarine;
+
+    display: block;
+}
